@@ -1,1 +1,17 @@
+This is a very nice problem..
+we have given a picture to find the flag..The flag is hidden in the picture..
+we need to use steghide command to extract the hidden data..the command below:
 
+                                                      steghide --extract -sf atbash.jpg
+this will create a encrypt.txt file inside the folder.we can open the folder using cat command
+
+                                                        cat encrypted.txt
+
+Here is our encrypted flag!!!!!!!!!!!!!!!!
+                                                        krxlXGU{zgyzhs_xizxp_92533667}
+
+using online tool we can decrypt it..it is a Atbash Cipher..After decrption we got our flag..The flag is:
+                                                        picoCTF{atbash_crack_92533667}
+
+"Stay curious, stay ethical"
+"Happy hacking!!!!!!!!!!!!!!"
